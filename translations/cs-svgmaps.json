@@ -1,0 +1,39 @@
+{
+    "season1": {
+        "1": "<path style=\"fill:#ffffff;fill-opacity:0.465863;stroke:#ffffff;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1\" d=\"m 0.3678145,0.34844084 139.7758255,0.00235 0.003,99.04985774 -139.78267792,0 z\" data-country=\"flamacraftstate\" sodipodi:nodetypes=\"ccccc\" />",
+        "2": "<path style=\"fill:#ffffff;fill-opacity:0.465863;stroke:#ffffff;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1\" d=\"m 0.3678145,0.34844084 139.7758255,0.00235 0.003,99.04985774 -139.78267792,0 z\" data-country=\"flamacraftstate\" sodipodi:nodetypes=\"ccccc\" /> <path style=\"fill:#1a00ff;fill-opacity:0.46586347;stroke:#1a00ff;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1\" d=\"m 122.76667,62.37552 h 6.61458 v 9.194271 h -7.07761 z\" data-country=\"unionofminers\"/>",
+        "3": "<path style=\"fill:#ff0000;stroke:#ff0000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1;fill-opacity:0.46586347\" d=\"m 81.266415,66.868441 v -1.497774 h 5.765631 v -6.586993 h -5.765631 v -2.947238 h -4.992587 v 9.550336 h 1.562198 v 1.51388 z\" data-country=\"peralkingdom\" /> <path style=\fill:#000000;fill-opacity:0.46586347;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1\" d=\"m 9.220179,82.530666 v -2.351347 h 1.127358 V 78.898963 H 9.3168096 V 77.03077 H 8.1733463 v -1.296461 h 1.0226749 v -1.868194 h -2.77008 v 0.982411 H 5.1214268 v 1.280358 H 3.9779635 v 2.753974 h 0.7569407 v 1.223989 h 2.4318724 v 2.427949 z\" data-country=\"iontsardom\" />",
+        "flamacraftstate": {
+            "-flag":"/assets/globalimages/flag_Unknown.png",
+            "-name":"Stát FlaMaCraft",
+            "-capitalcity":"Spawn",
+            "-leader":"Matakady",
+            "-page":"/season-1/stat_flamacraft.html",
+            "-desc":"Kdysi sjednocený národ roztržený revolucí."
+        },
+        "unionofminers": {
+            "-flag":"/season-1/localimages/flag_UnionOfMiners.png",
+            "-name":"Havířský Spolek",
+            "-capitalcity":"Žádné",
+            "-leader":"Graphite",
+            "-page":"/season-1/havirsky_spolek.html",
+            "-desc":"Revoluční hnutí zničeno zevnitř."
+        },
+        "peralkingdom": {
+            "-flag":"/season-1/localimages/flag_KingdomOfPeral.png",
+            "-name":"Peralské Království",
+            "-capitalcity":"Matakadyho Base",
+            "-leader":"Matakady",
+            "-page":"/season-1/peralske_kralovstvi.html",
+            "-desc":"Velkolepý následník kdysy sjednoceného státu."
+        },
+        "iontsardom": {
+            "-flag":"/season-1/localimages/flag_IonTsardom.png",
+            "-name":"Ionnské Carství",
+            "-capitalcity":"Neznámé",
+            "-leader":"Netherit",
+            "-page":"/season-1/ionske_carstvi.html",
+            "-desc":"Potomci revoluce od které se distancují."
+        }
+    }
+}
