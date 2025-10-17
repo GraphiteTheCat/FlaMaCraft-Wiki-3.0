@@ -99,11 +99,11 @@
         "leadertitle":"Tsar: ",
         "leader":"Netherit",
         "currency1":"Ores",
-        "preceding1":"<a href=\"./stat_flamacraft.html\" data-tl=\"preceding1\"><img src=\"../assets/globalimages/flag_Unknown.png\" class=\"miniflag\"> FlaMaCraft State</a>",
+        "preceding1":"<a href=\"season-1/stat_flamacraft.html\" data-tl=\"preceding1\"><img src=\"assets/globalimages/flag_Unknown.png\" class=\"miniflag\"> FlaMaCraft State</a>",
         "following1":"None",
-        "p1":"Ion Tsardom was a faction on the First Season of FlaMaCraft, located in the personal base of Deadovnik after complete distancing from everyone after the <a href=\"./havirsky_spolek.html\">Miners Revolution</a>. There lived:",
+        "p1":"Ion Tsardom was a faction on the First Season of FlaMaCraft, located in the personal base of Deadovnik after complete distancing from everyone after the <a href=\"season-1/havirsky_spolek.html\">Miners Revolution</a>. There lived:",
         "h1-1":"Dissolution",
-        "p2":"On 25th of December, a citizen of <a href=\"./peralske_kralovstvi.html\">Kingdom of Peral</a> went on an expedition into Ion Tsardom, with the goal of plundering it. After reaching his goal, all animals in the farms were killed off due to an FPS drop and noise, which became insufferable. After the Tsardom's dissolution, another raid was organized, which destroyed the remains.",
+        "p2":"On 25th of December, a citizen of <a href=\"season-1/peralske_kralovstvi.html\">Kingdom of Peral</a> went on an expedition into Ion Tsardom, with the goal of plundering it. After reaching his goal, all animals in the farms were killed off due to an FPS drop and noise, which became insufferable. After the Tsardom's dissolution, another raid was organized, which destroyed the remains.",
         "h1-2":"National Symbols",
         "figcaption1":"Presumed flag of the Ion Tsardom",
         "p3":"The flag of Ion Tsardom by itself is speculative, and lacks any symbolism."
@@ -236,4 +236,5 @@
         "figcaption1":"Base",
         "p5":"The entrance and exit were composed of a bubble elevator and a fall into a block of water. To the left was Netherit's room, and to the right was a room with an enchanting table. Across it laid a conference room with an aquarium in the table. A hallway laid to the straight, on the left were beds and farms, and on the right were functional blocks and a nether wart farms. On the end of the hallway was the storage room. The entire base was underground and made out of glass and deepslate."
     }
+
 }
