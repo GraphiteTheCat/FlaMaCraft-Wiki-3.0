@@ -2,6 +2,7 @@ let translationdocument;
 let svgmapdocument
 let svgmap;
 let timeframe;
+const basepath = "/FlaMaCraft-Wiki-3.0"
 
 if(document.body.getAttribute("data-transcategory").startsWith("season")) {
     svgmap = document.getElementsByClassName("map")[0].children[1];
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
     document.getElementById("language").value = localStorage.getItem("language");
 
-    let response = await fetch(`translations/${localStorage.getItem("language")}.json`);
+    let response = await fetch(`${basepath}/translations/${localStorage.getItem("language")}.json`);
     translationdocument = await response.json();    //Najde JSON soubor s jazykem
 
     const translationpath = translationdocument[this.body.getAttribute("data-transcategory")]; //Vytvoří proměnnou pro lokální překlady.
@@ -30,7 +31,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         }
     });
 
-    response = await fetch(`translations/${localStorage.getItem("language")}-svgmaps.json`); //Obdrží a zpracuje JSON soubor na SVG mapy.
+    response = await fetch(`${basepath}/translations/${localStorage.getItem("language")}-svgmaps.json`); //Obdrží a zpracuje JSON soubor na SVG mapy.
     svgmapdocument = await response.json();
     svgmapdocument = svgmapdocument[document.body.getAttribute("data-transcategory")]
 
@@ -70,3 +71,4 @@ if(svgmap != null) {
     })
 
 }
+
