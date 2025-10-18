@@ -50,7 +50,8 @@ figcaption {
 }
 
 figure > img {
-    height:300px;
+    max-height:300px;
+    max-width:100%;
 }
 
 .infobar {
@@ -480,5 +481,6 @@ nav > h1 {
     }
 
 }
+
 
 
