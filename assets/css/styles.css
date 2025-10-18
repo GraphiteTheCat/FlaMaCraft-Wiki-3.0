@@ -271,6 +271,7 @@ figure > img {
     justify-self:center;
     position:relative;
     display:flex;
+    margin:auto;
 }
 
 .centeredtext {
@@ -479,4 +480,5 @@ nav > h1 {
     }
 
 }
+
 
