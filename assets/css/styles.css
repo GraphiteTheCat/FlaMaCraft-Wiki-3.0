@@ -465,6 +465,7 @@ nav > h1 {
     .mapabout {
         height:fit-content;
         width:80%;
+        max-width:0;
     }
 
     .mapabout > img {
@@ -478,3 +479,4 @@ nav > h1 {
     }
 
 }
+
