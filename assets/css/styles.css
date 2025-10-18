@@ -125,6 +125,7 @@ figure > img {
 
 .displaygallery > * {
     height:100%;
+    justify-content:center;
 }
 
 .indented {
@@ -485,6 +486,7 @@ nav > h1 {
     }
 
 }
+
 
 
 
