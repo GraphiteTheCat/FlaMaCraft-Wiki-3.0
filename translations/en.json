@@ -36,7 +36,6 @@
     "headquarters":"Headuqarters: ",
     "membercount":"Members: ",
     "goal":"Goal: ",
-    "history":"History",
     "mapunavailable":"MAP UNAVAILABLE",
     "mapunavailabledesc":"If anybody has access to the seed, please send it to us anywhere in <a href=\"contacts.html\".",
 
@@ -242,8 +241,10 @@
     "season2": {
         "title":"Season 2",
         "p1":"Season 2 was in no way like the first season. It didn't have any factions, instead it was a regular SMP with a single gimmick. A player had to live within a specific area (known as \"The Crater\"), and living out of it was forbidden.",
+        "history":"History",
         "p2":"Season 2 was launched on the 2nd of February 2022, and not much happened after the launch aside from some disagreements over living outside the crater. On the 14th of February, a vault hunt took place. The price was claimed by Netherit a month later, although his reward was soonly lost to death. On the 2nd of April, the beggining of construction of the M&N Mall was announced, which was completed on the 28th of May. The upper floor was reserved for minigames, which was finished somewhen around the beginning of June, and their playing marked the end of the season on the 19th of June."
     }
 }
+
 
 
