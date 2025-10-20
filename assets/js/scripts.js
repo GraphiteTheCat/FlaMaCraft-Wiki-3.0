@@ -4,7 +4,7 @@ let svgmap;
 let timeframe;
 const basepath = "/FlaMaCraft-Wiki-3.0"
 
-if(document.body.getAttribute("data-transcategory").startsWith("season")) {
+if(document.querySelector(".map")) {
     svgmap = document.getElementsByClassName("map")[0].children[1];
     timeframe = document.getElementById("timeframe");
 }
@@ -71,4 +71,5 @@ if(svgmap != null) {
     })
 
 }
+
 
