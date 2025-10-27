@@ -34,10 +34,6 @@ document.addEventListener("DOMContentLoaded", async function() {
     response = await fetch(`${basepath}/translations/${localStorage.getItem("language")}-svgmaps.json`); //Obdrží a zpracuje JSON soubor na SVG mapy.
     svgmapdocument = await response.json();
     svgmapdocument = svgmapdocument[document.body.getAttribute("data-transcategory")]
-
-    svgmap.innerHTML = svgmapdocument[timeframe.value];
-
-
     // Hodnoty atributu data-tl nebo data-tlg které začínají na pomlčku jsou nastaveny až po splnění kondice (tlačítko, etc.)
 })
 
@@ -71,5 +67,6 @@ if(svgmap != null) {
     })
 
 }
+
 
 
