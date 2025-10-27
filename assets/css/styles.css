@@ -410,6 +410,19 @@ nav > h1 {
     margin-left:auto;
 }
 
+.electionresult {
+    table-layout: fixed;
+}
+
+.electionresult > * {
+    text-align:center !important;
+    word-break:break-all;
+}
+
+.electionresult img {
+    width:100%;
+}
+
 @media only screen and (max-width: 700px) {
     nav {
         flex-direction:column;
@@ -486,6 +499,7 @@ nav > h1 {
     }
 
 }
+
 
 
 
