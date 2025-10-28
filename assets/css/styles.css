@@ -140,6 +140,7 @@ figure > img {
 .indented > a {
     text-decoration: none;
     color:white;
+    height:3vh;
     background-color:cadetblue;
     width:100%;
     text-align:center;
@@ -173,8 +174,8 @@ figure > img {
 }
 
 #language {
+    border:0;
     border-radius:0;
-    border:1px solid cadetblue;
     background-color: darkcyan;
     color:white;
     height:100%;
@@ -186,6 +187,30 @@ figure > img {
 #language > option:nth-child(even) {
     background-color:cadetblue;
 }
+
+#visualmode {
+    background-color: darkcyan;
+    height:100%;
+    width:3vw;
+    border:0;
+    cursor:pointer;
+}
+
+[for="timeframe"] {
+    background-color: cadetblue;
+    padding:5px;
+}
+
+#timeframe {
+    background-color:darkcyan;
+    border:0;
+}
+
+[for="timeframe"], #timeframe {
+    margin-top:5px;
+    color:white;
+}
+
 
 .mapabout > h3, .mapabout > p, .mapabout > a {
     margin:0;
@@ -270,7 +295,7 @@ figure > img {
 }
 
 .centered {
-    justify-self:center;
+    justify-content:center;
     position:relative;
     display:flex;
     margin:auto;
@@ -497,9 +522,11 @@ nav > h1 {
         height:3vh;
     }
 
+    #visualmode {
+        width:80%;
+        height:3vh
+    }
 }
-
-
 
 
 
