@@ -1,0 +1,546 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+h1,
+h2 {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid cadetblue;
+}
+
+p {
+    color: darkcyan;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+a {
+    color: darkcyan;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+footer>p,
+footer>p>* {
+    color: black;
+}
+
+figure {
+    border: 2px dashed cadetblue;
+    max-width: fit-content;
+}
+
+figcaption {
+    color: cadetblue;
+    text-align: center;
+}
+
+figure>img {
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.infobar {
+    max-width: 33vw;
+    border: 5px solid cadetblue;
+    margin: 5px;
+    float: right;
+}
+
+.infobar .partymarker {
+    height: 3px;
+    width: 100%;
+}
+
+.infobar>h1,
+.infobar>h2,
+.infobar>h3 {
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: cadetblue;
+    margin: 0;
+    border-bottom: 3px dotted darkcyan;
+}
+
+[data-tl="alt-titles"] {
+    font-weight: normal;
+}
+
+[for="timeframe"] {
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+#timeframe {
+    background-color: darkcyan;
+    border: 0;
+}
+
+[for="timeframe"], #timeframe {
+    margin-top: 5px;
+    color: white;
+}
+
+
+.infobar table,
+.infobar tbody {
+    margin: 2px;
+    width: calc(100% - 4px);
+    color: cadetblue;
+    text-align: left;
+}
+
+.infobar>img {
+    max-width: 100%;
+}
+
+.infobar table tr th {
+    background-color: darkcyan;
+    color: white;
+    transform: skew(-4deg, 0);
+    width: 40%;
+}
+
+.unskew {
+    transform: skew(0) !important;
+}
+
+.miniflag {
+    height: 1em;
+    vertical-align: middle;
+}
+
+.scrollgallery {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    height: fit-content;
+    gap: 3px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.displaygallery {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.displaygallery>* {
+    height: 100%;
+    justify-content: center;
+}
+
+.indented {
+    width: 100%;
+    padding-left: 5vw;
+    border-left: 3px solid cadetblue;
+    padding-right: 5vw;
+    border-right: 3px solid cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.indented>a {
+    text-decoration: none;
+    color: black;
+    background-color: cadetblue;
+    height:3vh;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.indented>a:hover {
+    color: cadetblue;
+    background-color: black;
+}
+
+.mapscontainer {
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mapabout {
+    gap: 3px;
+    align-items: center;
+    padding: 5px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    max-width: 20vw;
+}
+
+.mapabout>img {
+    height: 23%;
+}
+
+#language {
+    border: 0;
+    border-radius: 0;
+    background-color: darkcyan;
+    color: white;
+    height: 100%;
+    width: 5vh;
+    cursor: pointer;
+    text-align: center;
+}
+
+#language>option:nth-child(even) {
+    background-color: cadetblue;
+}
+
+#visualmode {
+    background-color: darkcyan;
+    height: 100%;
+    width: 3vw;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.mapabout>h3,
+.mapabout>p,
+.mapabout>a {
+    margin: 0;
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+
+.map {
+    user-select: none;
+    overflow: scroll;
+    height: 100%;
+    width: auto;
+    display: flex;
+    position: relative;
+}
+
+.map path:hover {
+    stroke: white !important;
+    fill: rgba(255, 255, 255, 0.3) !important;
+    cursor: pointer;
+}
+
+.map>img {
+    width: 100%;
+}
+
+.map>svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    overflow: hidden;
+    width: auto;
+    padding: 15px;
+    min-height: 80vh;
+}
+
+.content > ul, .content > ol, .content > blockquote {
+    color:white;
+}
+
+.seasoncontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.season {
+    width: 300px;
+    height: 150px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.season:hover {
+    transform: scale(1.1);
+}
+
+.season>* {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+
+.season>p {
+    position: absolute;
+    color: black;
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    font-weight: bold;
+    background: #5f9ea07a;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.centered {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.centeredtext {
+    width: 100%;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 33%;
+    background-color: #1A1A1E;
+    min-width: fit-content;
+}
+
+.contact>table {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.ctitle {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 30px;
+    align-items: center;
+}
+
+.ctitle>* {
+    height: 30px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#discord {
+    border: 3px solid #5865F2;
+}
+
+#discord>.ctitle {
+    background-color: #5865F2;
+}
+
+#discord>a {
+    width: 100%;
+    text-align: center;
+    background-color: #5865F2;
+    color: white;
+}
+
+#youtube {
+    border: 3px solid red;
+}
+
+#youtube>.ctitle {
+    background-color: red;
+}
+
+#misc {
+    border: 3px solid #4CFF71;
+}
+
+#misc>.ctitle {
+    background-color: #4CFF71;
+}
+
+nav {
+    width: 90vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    outline: 3px solid cadetblue;
+    position: relative;
+    justify-self: center;
+    border-radius: 25px;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav>a {
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 25px;
+    border-left: 3px solid cadetblue;
+    padding: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav>a:hover {
+    background-color: cadetblue;
+    color: black;
+    border-radius: 25px;
+}
+
+nav>.logo {
+    border: 0;
+    padding-left: 7px;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+nav>.logo>img {
+    height: 100%;
+}
+
+nav>h1 {
+    color: black;
+    background: cadetblue;
+    font-size: 1.7vw;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: inherit;
+    margin-left: auto;
+}
+
+.electionresult {
+    table-layout: fixed;
+}
+
+.electionresult>* {
+    text-align: center !important;
+    word-break: break-all;
+}
+
+.electionresult img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    nav>a {
+        border-left: 0;
+        border-top: 3px solid cadetblue;
+    }
+
+    nav>.logo {
+        height: 10vh;
+    }
+
+    nav>h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contacts>* {
+        width: 100%;
+    }
+
+    .season {
+        width: 100%;
+    }
+
+    .seasoncontainer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .seasoncontainer>a {
+        width: 80%;
+    }
+
+    .infobar {
+        max-width: none;
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .map {
+        max-width: 100%;
+    }
+
+    .mapscontainer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .mapabout {
+        height: fit-content;
+        width: 80%;
+        max-width: none;
+    }
+
+    .mapabout>img {
+        height: auto;
+        width: 50%;
+    }
+
+    #language {
+        width: 80%;
+        height: 3vh;
+    }
+
+    #visualmode {
+        width: 80%;
+        height: 3vh
+    }
+}
