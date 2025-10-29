@@ -13,7 +13,14 @@ document.addEventListener("DOMContentLoaded", async function() {
     if(localStorage.getItem("language") === null) { //Nastaví jazyk pokud nebyl nastaven předtím.
         localStorage.setItem("language", "cs");
     }
+    if(localStorage.getItem("visualmode") === null) {
+        localStorage.setItem("visualmode", "styles");
+    }
+
+    document.getElementById("visualmode").innerText = localStorage.getItem("visualmode") === "styles"? "🌕" : "🌑";
     document.getElementById("language").value = localStorage.getItem("language");
+
+    document.getElementById("stylesheet").href = `${basepath}/assets/css/${localStorage.getItem("visualmode")}.css`;
 
     let response = await fetch(`${basepath}/translations/${localStorage.getItem("language")}.json`);
     translationdocument = await response.json();    //Najde JSON soubor s jazykem
@@ -42,6 +49,11 @@ document.getElementById("language").addEventListener("change", function() {
     location.reload();
 })
 
+document.getElementById("visualmode").addEventListener("click", function() {
+    localStorage.setItem("visualmode", localStorage.getItem("visualmode") === "styles"? "dark": "styles");
+    location.reload();
+})
+
 if(svgmap != null) {
     timeframe.addEventListener("change", function() {
         svgmap.innerHTML = svgmapdocument[timeframe.value];
@@ -67,6 +79,5 @@ if(svgmap != null) {
     })
 
 }
-
 
 
