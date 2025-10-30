@@ -194,6 +194,8 @@ figure > img {
     width:3vw;
     border:0;
     cursor:pointer;
+    display:flex;
+    justify-content:center;
 }
 
 [for="timeframe"] {
@@ -402,6 +404,8 @@ nav > a {
     border-left:3px solid white;
     padding:3px;
     transition:all 0.3s ease-in-out;
+    display:flex;
+    justify-content:center;
 }
 
 nav > a:hover {
@@ -527,6 +531,7 @@ nav > h1 {
         height:3vh
     }
 }
+
 
 
 
