@@ -218,6 +218,8 @@ figure>img {
     width: 3vw;
     border: 0;
     cursor: pointer;
+    display:flex;
+    justify-content:center;
 }
 
 
@@ -419,6 +421,8 @@ nav>a {
     border-left: 3px solid cadetblue;
     padding: 3px;
     transition: all 0.3s ease-in-out;
+    display:flex;
+    justify-content:center;
 }
 
 nav>a:hover {
