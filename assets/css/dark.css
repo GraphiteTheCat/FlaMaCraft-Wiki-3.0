@@ -340,6 +340,7 @@ figure>img {
     width: 33%;
     background-color: #1A1A1E;
     min-width: fit-content;
+    word-break:break-all;
 }
 
 .contact>table {
