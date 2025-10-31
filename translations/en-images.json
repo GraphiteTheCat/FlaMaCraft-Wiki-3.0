@@ -1,0 +1,9 @@
+{
+    "homepage":{
+        "logo":{
+            "title":"Logo",
+            "source":"assets/globalimages/logo.png",
+            "description":"Logo of the FlaMaCraft Wiki"
+        }
+    }
+}
