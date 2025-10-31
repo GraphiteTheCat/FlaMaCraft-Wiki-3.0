@@ -469,6 +469,85 @@ nav>h1 {
     width: 100%;
 }
 
+.imagemag {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:1;
+    overflow:scroll;
+    height:100vh;
+    width:100vw;
+    backdrop-filter: blur(5px);
+}
+
+.imagemag > .titlecard {
+    height:5%;
+    width:100%;
+    background-color:cadetblue;
+    display:flex;
+    position:absolute;
+    top:0;
+    align-items:center;
+    padding:10px;
+    
+}
+
+.imagemag > p {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:white;
+    background-color:cadetblue;
+    margin:0;
+    padding:2px;
+    height:5%;
+}
+
+.imagemag button {
+    background-color:darkcyan;
+    border:0;
+    margin:0;
+    width:50px;
+    height:100%;
+    position:absolute;
+    top:0;
+    right:0;
+    cursor: pointer;
+    transition:0.1s all ease-in-out;
+}
+
+.imagemag > .imagecontainer {
+    display:flex;
+    overflow:scroll;
+    align-items:center;
+    margin:10px;
+    height:97%;
+}
+
+.imagemag [type="range"], .imagemag label {
+    position:absolute;
+    right:0;
+    top:50%;
+    transform:rotate(-90deg);
+}
+
+.imagemag button:hover{
+    transform:scale(1.2);
+}
+
+.imagemag img {
+    position:relative;
+    width:70%;
+    left:0;
+    transform-origin:0 0;
+}
+
+.imagemag * {
+    color:white;
+}
+
 @media only screen and (max-width: 700px) {
     nav {
         flex-direction: column;
@@ -547,5 +626,13 @@ nav>h1 {
     #visualmode {
         width: 80%;
         height: 3vh
+    }
+
+    .imagemag [type="range"], .imagemag label {
+        position:absolute;
+        bottom:10%;
+        right:40%;
+        top:auto;
+        transform:none;
     }
 }
