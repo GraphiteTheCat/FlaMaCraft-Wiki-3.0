@@ -10,6 +10,21 @@
         <script src="assets/js/scripts.js" defer></script>
     </head>
     <body data-transcategory="homepage">
+
+        <div class="imagemag hidden">
+            <div class="titlecard">
+                <p data-tli="title">Title</p>
+                <button type="button" id="closeimagemag">X</button>
+            </div>
+
+            <div class="imagecontainer">
+                <img src="" data-tli="source">
+            </div>
+
+            <input type="range" min="1" max="3" step="0.1" id="imgmagnification">
+            <p data-tli="description">Description</p>
+        </div>
+        
         <nav>
             <a href="index.html" class="logo"><img src="assets/globalimages/icon.png"></a>
             <a href="index.html" data-tlg="homepage-button">Domovská Stránka</a>
@@ -23,7 +38,7 @@
             <h1 data-tl="title">Domovská Stránka</h1>
         </nav>
         <div class="content">
-            <img src="assets/globalimages/logo.png" class="centered" width="40%">
+            <img src="assets/globalimages/logo.png" class="centered" width="40%" data-img="logo">
             <h1 class="centeredtext" data-tl="welcome-header">Vítej na FlaMaCraft Wiki 3.0!</h1>
             <p data-tl="p1">
                 Vítej na třetí verzi FlaMaCraft Wiki! Zde nalezneš všechny- nebo alespoň většinu informací okolo všech sezón serveru z dochovaných zdrojů a výpovědí pamětníků!
@@ -62,3 +77,4 @@
     </body>
 
 </html>
+
