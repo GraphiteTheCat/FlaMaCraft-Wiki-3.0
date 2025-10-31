@@ -1,7 +1,9 @@
 let translationdocument;
 let svgmapdocument
+let imgdocument;
 let svgmap;
 let timeframe;
+let imagemagnifier;
 const basepath = "/FlaMaCraft-Wiki-3.0"
 
 if(document.querySelector(".map")) {
@@ -40,8 +42,14 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     response = await fetch(`${basepath}/translations/${localStorage.getItem("language")}-svgmaps.json`); //Obdrží a zpracuje JSON soubor na SVG mapy.
     svgmapdocument = await response.json();
-    svgmapdocument = svgmapdocument[document.body.getAttribute("data-transcategory")]
+    svgmapdocument = svgmapdocument[document.body.getAttribute("data-transcategory")];
     // Hodnoty atributu data-tl nebo data-tlg které začínají na pomlčku jsou nastaveny až po splnění kondice (tlačítko, etc.)
+
+    imagemagnifier = document.getElementsByClassName("imagemag")[0];
+    
+    response = await fetch(`${basepath}/translations/${localStorage.getItem("language")}-images.json`); //Obdrží a spracuje JSON soubor pro nadpisy a popisy obrázků
+    imgdocument = await response.json();
+    imgdocument = imgdocument[document.body.getAttribute("data-transcategory")];
 })
 
 document.getElementById("language").addEventListener("change", function() {
@@ -52,6 +60,31 @@ document.getElementById("language").addEventListener("change", function() {
 document.getElementById("visualmode").addEventListener("click", function() {
     localStorage.setItem("visualmode", localStorage.getItem("visualmode") === "styles"? "dark": "styles");
     location.reload();
+})
+
+Array.from(document.getElementsByTagName("img")).forEach(image => {
+    image.addEventListener("click", function(){
+        imgscope = imgdocument[event.target.getAttribute("data-img")];
+            document.querySelectorAll("[data-tli]").forEach(imginfo =>{
+                if(imginfo.getAttribute("data-tli") === "source") {
+                    imginfo.src = imgscope[imginfo.getAttribute("data-tli")];
+                }
+                else if(imginfo.getAttribute("data-tli") != "source"){
+                    imginfo.innerHTML = imgscope[imginfo.getAttribute("data-tli")]
+                }
+            })
+
+        imagemagnifier.classList.toggle("hidden");
+    })
+})
+
+document.getElementById("closeimagemag").addEventListener("click", function() {
+    imagemagnifier.classList.toggle("hidden");
+})
+
+document.getElementById("imgmagnification").addEventListener("change", function(){
+    image = document.querySelector(`[data-tli="source"]`)
+    image.style.transform = `scale(${document.getElementById("imgmagnification").value})`;
 })
 
 if(svgmap != null) {
@@ -79,5 +112,3 @@ if(svgmap != null) {
     })
 
 }
-
-
