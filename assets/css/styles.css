@@ -314,6 +314,7 @@ figure > img {
     gap:5px;
     flex-wrap:wrap;
     justify-content:center;
+    word-break:break-all;
 }
 
 .contact {
@@ -531,6 +532,7 @@ nav > h1 {
         height:3vh
     }
 }
+
 
 
 
