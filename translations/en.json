@@ -37,7 +37,7 @@
     "membercount":"Members: ",
     "goal":"Goal: ",
     "mapunavailable":"MAP UNAVAILABLE",
-    "mapunavailabledesc":"If anybody has access to the seed, please send it to us anywhere in <a href=\"contacts.html\".",
+    "mapunavailabledesc":"If anybody has access to the seed, please send it to us anywhere in <a href=\"contacts.html\">contacts</a>.",
 
     "homepage":{
         "title":"Homepage",
@@ -115,7 +115,7 @@
         "flagdesc":"Flag of the Kingdom of Peral",
         "emblemdesc":"Emblem of the Kingdom of Peral",
         "area":"113 Chunks",
-        "captitalcity":"Matakady's Base",
+        "capitalcity":"Matakady's Base",
         "building1":"Iron Farm",
         "building2":"AFK Fish farm",
         "building3":"Matakady's house",
@@ -245,6 +245,7 @@
         "p2":"Season 2 was launched on the 2nd of February 2022, and not much happened after the launch aside from some disagreements over living outside the crater. On the 14th of February, a vault hunt took place. The price was claimed by Netherit a month later, although his reward was soonly lost to death. On the 2nd of April, the beggining of construction of the M&N Mall was announced, which was completed on the 28th of May. The upper floor was reserved for minigames, which was finished somewhen around the beginning of June, and their playing marked the end of the season on the 19th of June."
     }
 }
+
 
 
 
