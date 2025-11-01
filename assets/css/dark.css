@@ -481,6 +481,9 @@ nav>h1 {
     height:100vh;
     width:100vw;
     backdrop-filter: blur(5px);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
 }
 
 .imagemag > .titlecard {
@@ -504,6 +507,7 @@ nav>h1 {
     margin:0;
     padding:2px;
     height:5%;
+    overflow-y:scroll;
 }
 
 .imagemag button {
@@ -524,7 +528,7 @@ nav>h1 {
     overflow:scroll;
     align-items:center;
     margin:10px;
-    height:97%;
+    height:88%;
 }
 
 .imagemag [type="range"], .imagemag label {
