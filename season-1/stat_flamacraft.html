@@ -26,11 +26,25 @@
         
 
         <div class="content">
+            <div class="imagemag hidden">
+            <div class="titlecard">
+                <p data-tli="title">Title</p>
+                <button type="button" id="closeimagemag">X</button>
+            </div>
+
+            <div class="imagecontainer">
+                <img src="" data-tli="source">
+            </div>
+
+            <input type="range" min="1" max="3" step="0.1" id="imgmagnification">
+            <p data-tli="description">Description</p>
+        </div>
+
             <div class="infobar">
                 <h1 data-tl="title">Stát Flamacraft</h1>
                 <h2 data-tl="alt-titles"></h2>
                 <div class="scrollgallery">
-                    <img src="assets/globalimages/flag_Unknown.png">
+                    <img src="assets/globalimages/flag_Unknown.png" data-img="flag">
                 </div>
                 <h2 data-tlg="geography">Geografie</h2>
                 <table>
@@ -135,8 +149,8 @@
             <hr>
             <p data-tl="p5">Stát FlaMaCraft měl svůj vlastní daňový systém jenž fungoval na systému úrovně armoru, avšak málokdo je platil buďto z důvodu nedostatku surovin či dobrovolné ignoraci.</p>
             <div class="displaygallery">
-                <img src="season-1/localimages/img_FlamacraftState-taxes1.png">
-                <img src="season-1/localimages/img_FlamacraftState-taxes2.png">
+                <img src="season-1/localimages/img_FlamacraftState-taxes1.png" data-img="taxes1">
+                <img src="season-1/localimages/img_FlamacraftState-taxes2.png" data-img="taxes2">
             </div>
 
         </div>
