@@ -10,6 +10,20 @@
         <script src="assets/js/scripts.js" defer></script>
     </head>
     <body data-transcategory="iontsardom">
+        <div class="imagemag hidden">
+            <div class="titlecard">
+                <p data-tli="title">Title</p>
+                <button type="button" id="closeimagemag">X</button>
+            </div>
+
+            <div class="imagecontainer">
+                <img src="" data-tli="source">
+            </div>
+
+            <input type="range" min="1" max="3" step="0.1" id="imgmagnification">
+            <p data-tli="description">Description</p>
+        </div>
+        
         <nav>
             <a href="index.html" class="logo"><img src="assets/globalimages/icon.png"></a>
             <a href="index.html" data-tlg="homepage-button">Domovská Stránka</a>
@@ -30,7 +44,7 @@
                 <div class="scrollgallery">
                     <table>
                         <tr>
-                            <td><img src="season-1/localimages/flag_IonTsardom.png" height="200px" class="centered"></td>
+                            <td><img src="season-1/localimages/flag_IonTsardom.png" height="200px" class="centered" data-img="flag"></td>
                         </tr>
                         <tr>
                             <th data-tl="flagdesc">Vlajka Ionského Carství</th>
@@ -38,7 +52,7 @@
                     </table>
                 </div>
                 <h2 data-tlg="geography">Geografie</h2>
-                <img src="season-1/localimages/location_IonTsardom.png">
+                <img src="season-1/localimages/location_IonTsardom.png" data-img="location">
                 <table>
                     <tr>
                         <th data-tlg="area">Rozloha: </th>
@@ -144,7 +158,7 @@
             <h1 data-tl="h1-2">Státní symboly</h1>
             <hr>
             <figure>
-                <img src="season-1/localimages/flag_IonTsardom.png">
+                <img src="season-1/localimages/flag_IonTsardom.png" data-img="flag">
                 <figcaption data-tl="figcaption1">Předpokládaná vlajka Ionského Carství</figcaption>
             </figure>
             <p data-tl="p3">Vlajka Ionského Carství je sama o sobě spekulativní, a postrádá symboliku.</p>
