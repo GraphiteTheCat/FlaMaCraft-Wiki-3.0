@@ -5,5 +5,66 @@
             "source":"assets/globalimages/logo.png",
             "description":"Logo of the FlaMaCraft Wiki"
         }
+    },
+    "contacts":null,
+    "junction":null,
+    "season1":null,
+    "unionofminers":{
+        "flag":{
+            "title":"Flag of the Union of Miners",
+            "source":"season-1/localimages/flag_UnionOfMiners.png",
+            "description":"The official flag of the Union of Miners"
+        },
+        "base":{
+            "title":"Base of the Union of Miners",
+            "source":"season-1/localimages/map_UnionOfMiners-base.png",
+            "description":"A roughly put together schematic of the base of the Union of Miners, put together by Graphite."
+        }
+    },
+    "iontsardom":{
+        "flag":{
+            "title":"Flag of the Ion Tsardom",
+            "source":"season-1/localimages/flag_IonTsardom.png",
+            "description":"A speculative flag of the Ion Tsardom."
+        },
+        "location":{
+            "title":"Location of the Ion Tsardom",
+            "source":"season-1/localimages/location_IonTsardom.png",
+            "description":"A location of the Ion Tsardom on a map, highlighted in green. Map made by Graphite much later."
+        }
+    },
+    "kingdomofperal": {
+        "flag":{
+            "title":"Flag of the Peral Kingdom",
+            "source":"season-1/localimages/flag_KingdomOfPeral.png",
+            "description":"The official flag of the Kingom of Peral."
+        },
+        "emblem":{
+            "title":"Emblem of the Kingdom of Peral",
+            "source":"season-1/localimages/emblem_KingdomOfPeral.png",
+            "description":"The official emblem of the Kingom of Peral."
+        },
+        "location":{
+            "title":"Location of the Kingdom of Peral",
+            "source":"season-1/localimages/emblem_KingdomOfPeral.png",
+            "description":"A location of the Peral Kingdom on a map, highlighted in green. Map made by Graphite much later."
+        }
+    },
+    "flamacraftstate":{
+        "flag":{
+            "title":"Flag of the FlaMaCraft State",
+            "source":"assets/globalimages/flag_Unknown.png",
+            "description":"The state didn't have a flag, back then such a concept wasn't even thought about."
+        },
+        "taxes1":{
+            "title":"Description of the taxation system of the FlaMaCraft State",
+            "source":"season-1/localimages/img_FlamacraftState-taxes1.png",
+            "description":"It says: \"Armorless = 0%, Iron Armor = 30%, Diamond Armor = 75%. Netherite Armor = 100%\"."
+        },
+        "taxes2":{
+            "title":"Table of the taxation system of the State of FlaMaCraft per person",
+            "source":"season-1/localimages/img_FlamacraftState-taxes2.png",
+            "description":"On the left column, a number of people is stated. And on the right collumn is written how much diamonds would a person pay per week."
+        }
     }
 }
