@@ -66,5 +66,28 @@
             "source":"season-1/localimages/img_FlamacraftState-taxes2.png",
             "description":"On the left column, a number of people is stated. And on the right collumn is written how much diamonds would a person pay per week."
         }
-    }
+    },
+    "flamacraftstatepresidentialelections":{
+        "matakadyhead":{
+            "title":"Head of the player Matakady",
+            "source":"assets/globalimages/head_Matakady.png",
+            "description":""
+        },
+        "jokeerhead":{
+            "title":"Head of the player MrJokeer123",
+            "source":"assets/globalimages/head_MrJokeer123.png",
+            "description":""
+        },
+        "unknownhead":{
+            "title":"Head of the player bettim",
+            "source":"assets/globalimages/head_unknown.png",
+            "description":"We can't find their profile, and have no memory of him or his skin- so if you manage to remember, find or are him, contact us."
+        },
+        "deadhead":{
+            "title":"Head of the player dead2009cz",
+            "source":"assets/globalimages/head_dead2009cz.png",
+            "description":""
+        }
+    },
+    "season2":null
 }
