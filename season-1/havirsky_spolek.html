@@ -10,6 +10,20 @@
         <script src="assets/js/scripts.js" defer></script>
     </head>
     <body data-transcategory="unionofminers">
+        <div class="imagemag hidden">
+            <div class="titlecard">
+                <p data-tli="title">Title</p>
+                <button type="button" id="closeimagemag">X</button>
+            </div>
+
+            <div class="imagecontainer">
+                <img src="" data-tli="source">
+            </div>
+
+            <input type="range" min="1" max="3" step="0.1" id="imgmagnification">
+            <p data-tli="description">Description</p>
+        </div>
+
         <nav>
             <a href="index.html" class="logo"><img src="assets/globalimages/icon.png"></a>
             <a href="index.html" data-tlg="homepage-button">Domovská Stránka</a>
@@ -27,7 +41,7 @@
             <div class="infobar">
                 <h1 data-tl="title">Havířský Spolek</h1>
                 <div class="scrollgallery">
-                    <img src="season-1/localimages/flag_UnionOfMiners.png">
+                    <img src="season-1/localimages/flag_UnionOfMiners.png" data-img="flag">
                 </div>
 
                 <h2 data-tlg="geography">Geografie</h2>
@@ -105,7 +119,7 @@
             <h1 data-tl="h1-4">Základna</h1>
             <hr>
             <figure>
-                <img src="season-1/localimages/map_UnionOfMiners-base.png">
+                <img src="season-1/localimages/map_UnionOfMiners-base.png" data-img="base">
                 <figcaption data-tl="figcaption1">Základna</figcaption>
             </figure>
             <p data-tl="p5">Vztup a výstup byl tvořen bublinkovým výtahem a pádem do vody. Po levici byl Netheritův pokoj, a po pravici místnost s enchanting tablem. Naproti ležela konferenční místnost s akváriem ve stole. Následovala chodba, na levé straně byly postele a farmy, na pravé byly funkční bloky a farma na nether warty. Na konci chodby bylo skladiště. Celá základna byla v podzemí a stavěna ze skla a deepslatu.</p>
