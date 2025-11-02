@@ -10,6 +10,20 @@
         <script src="assets/js/scripts.js" defer></script>
     </head>
     <body data-transcategory="kingdomofperal">
+        <div class="imagemag hidden">
+            <div class="titlecard">
+                <p data-tli="title">Title</p>
+                <button type="button" id="closeimagemag">X</button>
+            </div>
+
+            <div class="imagecontainer">
+                <img src="" data-tli="source">
+            </div>
+
+            <input type="range" min="1" max="3" step="0.1" id="imgmagnification">
+            <p data-tli="description">Description</p>
+        </div>
+
         <nav>
             <a href="index.html" class="logo"><img src="assets/globalimages/icon.png"></a>
             <a href="index.html" data-tlg="homepage-button">Domovská Stránka</a>
@@ -30,8 +44,8 @@
                 <div class="scrollgallery">
                     <table>
                         <tr>
-                            <td><img src="season-1/localimages/flag_KingdomOfPeral.png" height="200px"></td>
-                            <td><img src="season-1/localimages/emblem_KingdomOfPeral.png" height="200px"></td>
+                            <td><img src="season-1/localimages/flag_KingdomOfPeral.png" height="200px" data-img="flag"></td>
+                            <td><img src="season-1/localimages/emblem_KingdomOfPeral.png" height="200px" data-img="emblem"></td>
                         </tr>
                         <tr>
                             <th data-tl="flagdesc">Vlajka Peralského Království</th>
@@ -41,7 +55,7 @@
                 </div>
 
                 <h2 data-tlg="geography">Geografie</h2>
-                <img src="season-1/localimages/location_KingdomOfPeral.png" width="100%">
+                <img src="season-1/localimages/location_KingdomOfPeral.png" width="100%" data-img="location">
                 <table>
                     <tr>
                         <th data-tlg="area">Rozloha: </th>
@@ -167,11 +181,11 @@
             <hr>
             <div class="displaygallery">
                 <figure>
-                    <img src="season-1/localimages/flag_KingdomOfPeral.png">
+                    <img src="season-1/localimages/flag_KingdomOfPeral.png" data-img="flag">
                     <figcaption data-tl="figcaption1">Vlajka Peralského Království</figcaption>
                 </figure>
                 <figure>
-                    <img src="season-1/localimages/emblem_KingdomOfPeral.png">
+                    <img src="season-1/localimages/emblem_KingdomOfPeral.png" data-img="emblem">
                     <figcaption data-tl="figcaption2">Znak Peralského Království</figcaption>
                 </figure>
             </div>
