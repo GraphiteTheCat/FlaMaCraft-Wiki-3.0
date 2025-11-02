@@ -5,5 +5,66 @@
             "source":"assets/globalimages/logo.png",
             "description":"Logo FlaMaCraft Wiki"
         }
+    },
+    "contacts":null,
+    "junction":null,
+    "season1":null,
+    "unionofminers":{
+        "flag":{
+            "title":"Vlajka Havířského Spolku",
+            "source":"season-1/localimages/flag_UnionOfMiners.png",
+            "description":"Oficiální vlajka Havířského Spolku."
+        },
+        "base":{
+            "title":"Základna Havířského Spolku",
+            "source":"season-1/localimages/map_UnionOfMiners-base.png",
+            "description":"Hrubě načrtnutý plánek základny Havířského Spolku, sestavený Graphitem."
+        }
+    },
+    "iontsardom":{
+        "flag":{
+            "title":"Vlajka Ionského Carství",
+            "source":"season-1/localimages/flag_IonTsardom.png",
+            "description":"Spekulativní vlajka Ionského Carství."
+        },
+        "location":{
+            "title":"Lokace Ionského Carství",
+            "source":"season-1/localimages/location_IonTsardom.png",
+            "description":"Lokace Ionského Carství na mapě, vyznačená zelenou. Vytvořena Graphitem mnohem později."
+        }
+    },
+    "kingdomofperal": {
+        "flag":{
+            "title":"Vlajka Peralského Království",
+            "source":"season-1/localimages/flag_KingdomOfPeral.png",
+            "description":"Oficiální vlajka Peralského Království."
+        },
+        "emblem":{
+            "title":"Znak Peralského Království",
+            "source":"season-1/localimages/emblem_KingdomOfPeral.png",
+            "description":"Oficiální znak Peralského Království."
+        },
+        "location":{
+            "title":"Lokace Peralského Království",
+            "source":"season-1/localimages/location_KingdomOfPeral.png",
+            "description":"Lokace Peralského Království na mapě, vyznačená zelenou. Vytvořena Graphitem mnohem později."
+        }
+    },
+    "flamacraftstate":{
+        "flag":{
+            "title":"Vlajka Státu FlaMaCraft",
+            "source":"assets/globalimages/flag_Unknown.png",
+            "description":"Stát neměl vlajku, tou dobou to byl koncept na který nikdo nemyslel."
+        },
+        "taxes1":{
+            "title":"Popisek daňového systému Státu FlaMaCraft",
+            "source":"season-1/localimages/img_FlamacraftState-taxes1.png",
+            "description":""
+        },
+        "taxes2":{
+            "title":"Tabulka daňového systému Státu FlaMaCraft na osobu.",
+            "source":"season-1/localimages/img_FlamacraftState-taxes2.png",
+            "description":""
+        }
     }
 }
