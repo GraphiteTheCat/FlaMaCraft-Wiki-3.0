@@ -66,5 +66,28 @@
             "source":"season-1/localimages/img_FlamacraftState-taxes2.png",
             "description":""
         }
-    }
+    },
+    "flamacraftstatepresidentialelections":{
+        "matakadyhead":{
+            "title":"Hlava hráče Matakady",
+            "source":"assets/globalimages/head_Matakady.png",
+            "description":""
+        },
+        "jokeerhead":{
+            "title":"Hlava hráče MrJokeer123",
+            "source":"assets/globalimages/head_MrJokeer123.png",
+            "description":""
+        },
+        "unknownhead":{
+            "title":"Hlava hráče bettim",
+            "source":"assets/globalimages/head_unknown.png",
+            "description":"We can't find their profile, and have no memory of him or his skin- so if you manage to remember, find or are him, contact us."
+        },
+        "deadhead":{
+            "title":"Hlava hráče dead2009cz",
+            "source":"assets/globalimages/head_dead2009cz.png",
+            "description":""
+        }
+    },
+    "season2":null
 }
