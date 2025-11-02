@@ -10,6 +10,20 @@
         <script src="assets/js/scripts.js" defer></script>
     </head>
     <body data-transcategory="flamacraftstatepresidentialelections">
+        <div class="imagemag hidden">
+            <div class="titlecard">
+                <p data-tli="title">Title</p>
+                <button type="button" id="closeimagemag">X</button>
+            </div>
+
+            <div class="imagecontainer">
+                <img src="" data-tli="source">
+            </div>
+
+            <input type="range" min="1" max="3" step="0.1" id="imgmagnification">
+            <p data-tli="description">Description</p>
+        </div>
+
         <nav>
             <a href="index.html" class="logo"><img src="assets/globalimages/icon.png"></a>
             <a href="index.html" data-tlg="homepage-button">Domovská Stránka</a>
@@ -44,10 +58,10 @@
                 <h2 data-tlg="results">Výsledky</h2>
                 <table class="electionresult">
                     <tr>
-                        <td><img src="assets/globalimages/head_Matakady.png"></td>
-                        <td><img src="assets/globalimages/head_MrJokeer123.png"></td>
-                        <td><img src="assets/globalimages/head_unknown.png"></td>
-                        <td><img src="assets/globalimages/head_dead2009cz.png"></td>
+                        <td><img src="assets/globalimages/head_Matakady.png" data-img="matakadyhead"></td>
+                        <td><img src="assets/globalimages/head_MrJokeer123.png" data-img="jokeerhead"></td>
+                        <td><img src="assets/globalimages/head_unknown.png" data-img="unknownhead"></td>
+                        <td><img src="assets/globalimages/head_dead2009cz.png" data-img="deadhead"></td>
                     </tr>
                     <tr>
                         <td><b>Matakady</b></td>
