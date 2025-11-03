@@ -527,7 +527,7 @@ nav > h1 {
 
 .imagemag img {
     position:relative;
-    width:70%;
+    height:70%;
     left:0;
     transform-origin:0 0;
 }
@@ -624,6 +624,7 @@ nav > h1 {
         transform:none;
     }
 }
+
 
 
 
